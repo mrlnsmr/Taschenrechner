@@ -1,0 +1,1 @@
+rechenart = str(int(input("Welche Rechenart möchtest du verwenden?")))
