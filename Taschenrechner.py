@@ -1,6 +1,6 @@
 from time import *
 
-for i in range(100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
+while True:
     #Rechenart
     rechenart = str(input('Welche Rechenart möchtest du verwenden? :'))
 
@@ -20,9 +20,12 @@ for i in range(10000000000000000000000000000000000000000000000000000000000000000
     else:
         print('Keine gültige Antwort.')
 
+
     #Fortsetzung
     Fortsetzung = str(input('Möchtest du nochmal rechnen?:'))
 
-    if Fortsetzung.lower == "nein":
-        break
-print("Auf Wiedersehen!")
+    if Fortsetzung.lower == "ja":
+        continue
+    else:
+        print("Auf Wiedersehen!")
+    break
